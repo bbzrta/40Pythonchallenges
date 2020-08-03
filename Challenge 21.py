@@ -1,6 +1,5 @@
-import random
 # The Thesaurus App
-
+import random
 # Setting the keys and the values
 dictionary = {'hot': ['blazing', 'boiling', 'heated', 'sizzling'],
               'cold': ['chilled', 'bleak', 'snowy', 'frozen'],
