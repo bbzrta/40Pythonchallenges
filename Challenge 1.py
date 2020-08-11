@@ -1,7 +1,7 @@
 
 
 name = input("What is your name?")
-print("Hello " + name.title()+"\nI will count the number times a letter will occurs in a message!")
+print("Hello " + name.title() + "\nI will count the number times a letter will occurs in a message!")
 
 message = input("Please Enter a message:")
 counter = input("What letter do you want me to count?")
