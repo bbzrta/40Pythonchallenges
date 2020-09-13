@@ -36,7 +36,7 @@ print("\nLetters ordered from highest to lowest occurrence: ", end='')
 for i in key_phrase_1_ordered_letters:
     print(i, end='')
 
-    ###############################----Phrase 2----#################################
+###############################----Phrase 2----###############################
 
 key_phrase_2 = input("\nplease Enter a word or a phrase to analyse: ").lower().strip()
 
