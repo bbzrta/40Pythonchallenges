@@ -16,12 +16,14 @@ while True:
     for i in factors:
         print(i)
 
+    print("\nThere are {0} factors for {1}!".format(len(factors), user_num))
+
     # Print a summary of the factors mathematically
     print("\nIn summary: ")
     for i in range(int(len(factors) / 2)):
         print(str(factors[i]) + " * " + str(factors[-i - 1]) + " = " + str(user_num))
 
-    if input("Run again (Y/n): ") == "n":
+    if input("\nRun again (Y/n): ") == "n":
         quit()
     else:
         continue
