@@ -14,6 +14,7 @@ game_dict = {
     "colours": ['orange', 'yellow', 'purple', 'black', 'red', 'blue'],
     "fruits": ['apple', 'peach', 'banana', 'pear', 'mango', 'strawberry'],
     "classes": ['english', 'history', 'science', 'mathematics', 'art'],
+    "movies": ['shutter island', 'ponyo', 'drop dead fred', 'silicone valley']
 }
 
 game_keys = []
