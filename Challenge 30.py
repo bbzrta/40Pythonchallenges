@@ -43,6 +43,7 @@ counter = 0
 ticket_sold = []
 
 while winning_numbers not in ticket_sold and True:
+
     playing_number = []
 
     for i in range(1, ticket_interval):
@@ -56,8 +57,7 @@ while winning_numbers not in ticket_sold and True:
         number = random.randint(1, red_balls)
         playing_number.append(number)
 
-    if playing_number not in ticket_sold:
-        counter += 1
-        ticket_sold.append(playing_number)
-        print(playing_number)
-
+        if playing_number not in ticket_sold:
+            counter += 1
+            ticket_sold.append(playing_number)
+            print(playing_number)
